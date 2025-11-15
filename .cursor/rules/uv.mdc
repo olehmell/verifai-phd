@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+use uv for all scripts instead of pip and python
+ s

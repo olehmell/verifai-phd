@@ -1,0 +1,168 @@
+{
+    "european_union_institutions": {
+        "EUvsDisinfo": {
+            "description": "Flagship initiative of the European External Action Service's East StratCom Task Force",
+            "established": 2015,
+            "focus": "Challenging Russian disinformation campaigns",
+            "database_cases": "8000+",
+            "publications": ["Disinformation Review"],
+            "languages": "Multiple",
+            "target_regions": ["Eastern Partnership countries", "EU member states"],
+            "website": "eeas.europa.eu/eeas/euvsdisinfo_en",
+            "parent_organization": "European External Action Service"
+        },
+        "European_Digital_Media_Observatory": {
+            "acronym": "EDMO",
+            "description": "EU's central hub for coordinating anti-disinformation efforts",
+            "coverage": {
+                "hubs": 15,
+                "countries": 28
+            },
+            "lead_organization": "European University Institute",
+            "activities": ["fact-checking coordination", "research", "media literacy"],
+            "independence": "Independent from EU public authorities",
+            "website": "edmo.eu"
+        },
+        "Digital_Forensic_Research_Lab": {
+            "acronym": "DFRLab",
+            "parent_organization": "Atlantic Council",
+            "investigations_conducted": "1000+",
+            "specialization": "Open-source research and digital threat analysis",
+            "focus_areas": ["influence operations", "digital manipulation", "democratic institution protection"],
+            "website": "dfrlab.org"
+        }
+    },
+    "eu_based_fact_checking": {
+        "EU_DisinfoLab": {
+            "location": "Brussels, Belgium",
+            "type": "Non-profit organization",
+            "established": 2018,
+            "methods": ["Open-source intelligence", "disinformation network analysis"],
+            "notable_exposures": ["Indian Chronicles campaign"],
+            "focus": "European disinformation and media literacy"
+        },
+        "Bellingcat": {
+            "location": "Netherlands",
+            "type": "Investigative journalism collective",
+            "specialization": ["Fact-checking", "open-source intelligence"],
+            "notable_investigations": ["Skripal poisoning", "Navalny assassination attempts"],
+            "target": "Russian military intelligence operations",
+            "website": "bellingcat.com"
+        },
+        "European_Fact_Checking_Standards_Network": {
+            "acronym": "EFCSN",
+            "member_organizations": "40+",
+            "coverage": "Europe-wide",
+            "standards": ["methodology", "ethics", "transparency"],
+            "notable_members": ["Maldita.es", "AFP", "CORRECTIV"]
+        }
+    },
+    "ukrainian_organizations": {
+        "StopFake": {
+            "established": "March 2014",
+            "founders": "Ukrainian professors and students from Kyiv-Mohyla Academy",
+            "primary_focus": "Countering Russian propaganda about Ukraine",
+            "formats": ["website", "television program"],
+            "partnerships": ["Facebook third-party fact-checker"],
+            "cases_debunked": "Thousands",
+            "recognition": "US Library of Congress historical source",
+            "website": "stopfake.org"
+        },
+        "VoxCheck": {
+            "parent_organization": "VoxUkraine",
+            "activities": ["Ukrainian politician fact-checking", "Russian disinformation monitoring"],
+            "projects": ["Propaganda Diary database"],
+            "coverage": "6 European countries",
+            "certifications": ["International Fact-Checking Network signatory"],
+            "partnerships": ["Meta/Facebook", "Instagram"],
+            "operational_since": 2018,
+            "website": "voxcheck.voxukraine.org"
+        },
+        "Detector_Media": {
+            "role": "Ukrainian media watchdog",
+            "specialization": ["Media analysis", "Kremlin propaganda tracking"],
+            "projects": ["DisinfoChronicle"],
+            "documented_cases": {
+                "false_reports": "2600+",
+                "manipulated_facts": "800+",
+                "period": "February 2022 - December 2024"
+            },
+            "website": "detector.media"
+        }
+    },
+    "government_initiatives": {
+        "ukraine": {
+            "Center_for_Countering_Disinformation": {
+                "parent": "Ukraine's National Security and Defense Council",
+                "role": "Official coordination of information threat response",
+                "activities": ["International partnerships", "civil society coordination"]
+            },
+            "Ministry_of_Culture_and_Information_Policy": {
+                "projects": ["Filter Media Literacy Project"],
+                "focus": "Media literacy and information resilience",
+                "partners": ["UNDP", "UNESCO"],
+                "educational_programs": "Comprehensive nationwide"
+            }
+        }
+    },
+    "international_support": {
+        "First_Draft_Coalition": {
+            "status": "Continued through Information Futures Lab",
+            "legacy_members": "100+ news organizations, platforms, technologists",
+            "contribution": "Collaborative fact-checking methodologies",
+            "operational_period": "Until 2022"
+        },
+        "Reporters_Without_Borders": {
+            "acronym": "RSF",
+            "projects": ["Propaganda Monitor"],
+            "focus": "Russian propaganda analysis and expert voice amplification",
+            "specialization": "Exposing identity theft in disinformation campaigns"
+        },
+        "Centre_for_Information_Resilience": {
+            "acronym": "CIR",
+            "methods": "Open-source investigations",
+            "focus_areas": ["Human rights abuses", "disinformation"],
+            "ukraine_project": "Eyes on Russia",
+            "activities": ["Training", "capacity building", "media collaboration"]
+        }
+    },
+    "training_and_education": {
+        "OSINT_training": {
+            "providers": ["Multiple specialized organizations"],
+            "target_audience": ["Journalists", "researchers", "civil society activists"],
+            "specializations": ["Russian internet research", "disinformation detection"],
+            "methods": "Advanced open-source intelligence techniques"
+        },
+        "media_literacy_campaigns": {
+            "eu_support": {
+                "platforms": ["Diia.Osvita"],
+                "format": "Educational video series",
+                "target": "Ukrainian citizens",
+                "focus": "Wartime disinformation identification"
+            }
+        },
+        "international_conferences": {
+            "organizers": ["EU institutions", "OSCE", "Council of Europe", "UN agencies"],
+            "purpose": "Best practice sharing and coordination",
+            "participants": "European stakeholders"
+        }
+    },
+    "data_sources": {
+        "disinformation_databases": {
+            "EUvsDisinfo_database": {
+                "cases": "8000+",
+                "focus": "Pro-Kremlin disinformation"
+            },
+            "VoxCheck_Propaganda_Diary": {
+                "countries": 6,
+                "focus": "Russian disinformation in Europe"
+            }
+        }
+    },
+    "metadata": {
+        "compilation_date": "2025-09-15",
+        "focus_region": ["European Union", "Ukraine"],
+        "primary_threat": "Russian disinformation",
+        "total_organizations_documented": 20
+    }
+}

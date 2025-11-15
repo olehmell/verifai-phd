@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "gemini-flash",
+      "type": "gemini",
+      "model_id": "gemini-2.5-flash"
+    },
+    {
+      "name": "gemma3",
+      "type": "local",
+      "model_id": "google/gemma-3-4b",
+      "base_url": "http://127.0.0.1:1234"
+    },
+    {
+      "name": "mamaylm",
+      "type": "local",
+      "model_id": "mamaylm-gemma-3-4b-it-v1.0@q8_0",
+      "base_url": "http://127.0.0.1:1234"
+    },
+    {
+      "name": "lapa",
+      "type": "local",
+      "model_id": "lapa-v0.1.2-instruct",
+      "base_url": "http://127.0.0.1:1234"
+    },
+    {
+      "name": "mamaylm-q",
+      "type": "local",
+      "model_id": "mamaylm-gemma-3-4b-it-v1.0",
+      "base_url": "http://127.0.0.1:1234"
+    },
+    {
+      "name": "mamaylm",
+      "type": "local",
+      "model_id": "mamaylm-gemma-3-4b-it-v1.0@q8_0",
+      "base_url": "http://127.0.0.1:1234"
+    }
+  ]
+}
+

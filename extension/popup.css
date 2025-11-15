@@ -1,0 +1,337 @@
+/* VerifAI Popup Styles */
+
+#verifai-popup {
+  position: absolute;
+  width: 400px;
+  max-width: 90vw;
+  max-height: 80vh;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.verifai-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.verifai-popup-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.verifai-close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: #6c757d;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.verifai-close-btn:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.verifai-popup-body {
+  padding: 16px;
+  overflow-y: auto;
+  max-height: calc(80vh - 60px);
+}
+
+/* Status Tags */
+.verifai-status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.verifai-manipulative {
+  background-color: #fee;
+  color: #c00;
+  border: 1px solid #fcc;
+}
+
+.verifai-not-manipulative {
+  background-color: #efe;
+  color: #060;
+  border: 1px solid #cfc;
+}
+
+/* Loading State */
+.verifai-loading {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.verifai-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.verifai-loading p {
+  margin: 0;
+  color: #6c757d;
+}
+
+/* Error State */
+.verifai-error {
+  padding: 20px;
+  background-color: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+  color: #856404;
+}
+
+.verifai-error p {
+  margin: 8px 0;
+}
+
+.verifai-error-hint {
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 12px !important;
+}
+
+/* Techniques Section */
+.verifai-techniques {
+  margin-bottom: 16px;
+}
+
+.verifai-techniques h4 {
+  margin: 0 0 12px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.verifai-techniques ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.verifai-techniques li {
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.verifai-techniques li strong {
+  color: #212529;
+  font-weight: 600;
+}
+
+/* Technique Expandable Items */
+.verifai-technique-item {
+  margin-bottom: 8px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.verifai-technique-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.verifai-technique-name:hover {
+  background-color: #e9ecef;
+}
+
+.verifai-technique-name span:first-child {
+  font-weight: 600;
+  color: #212529;
+  font-size: 14px;
+}
+
+.verifai-technique-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 12px;
+  background-color: #ffffff;
+}
+
+.verifai-technique-description.expanded {
+  max-height: 300px;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.verifai-technique-description p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+/* Expandable Sections */
+.verifai-section {
+  margin-bottom: 16px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.verifai-expandable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.verifai-expandable-header:hover {
+  background-color: #e9ecef;
+}
+
+.verifai-expandable-header h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.verifai-expand-icon {
+  font-size: 12px;
+  color: #6c757d;
+  transition: transform 0.2s;
+}
+
+.verifai-expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 16px;
+}
+
+.verifai-expandable-content.expanded {
+  max-height: 500px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.verifai-expandable-content p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Explanation Preview */
+.verifai-explanation-content {
+  max-height: none !important;
+  padding: 16px !important;
+}
+
+.verifai-explanation-content.expanded {
+  max-height: none !important;
+}
+
+.verifai-explanation-preview {
+  padding: 0;
+}
+
+.verifai-explanation-preview p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.verifai-explanation-full {
+  padding: 0;
+}
+
+.verifai-explanation-full p {
+  margin: 0;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.verifai-expandable-content ol {
+  margin: 0;
+  padding-left: 20px;
+  color: #495057;
+}
+
+.verifai-expandable-content li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* Info State */
+.verifai-info {
+  padding: 20px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.verifai-info p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Scrollbar Styling */
+.verifai-popup-body::-webkit-scrollbar,
+.verifai-expandable-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.verifai-popup-body::-webkit-scrollbar-track,
+.verifai-expandable-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.verifai-popup-body::-webkit-scrollbar-thumb,
+.verifai-expandable-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.verifai-popup-body::-webkit-scrollbar-thumb:hover,
+.verifai-expandable-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
